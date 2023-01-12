@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOCS_VERSIONS=(
-  master
+  main
 #   9.x
 #   8.x
 #   7.x
