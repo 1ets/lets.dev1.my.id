@@ -1,20 +1,20 @@
-## Laravel Website
+## Lets Website
 
-This is the source of the official [Laravel website](https://laravel.com).
+This is the source of the official [Lets website](https://lets.dev1.my.id).
 
 ## Local Development
 
-If you want to work on this project on your local machine, you may follow the instructions below. These instructions assume you are serving the site using Laravel Valet out of your `~/Sites` directory:
+If you want to work on this project on your local machine, you may follow the instructions below. These instructions assume you are serving the site using Lets Valet out of your `~/Sites` directory:
 
 1. Fork this repository 
 2. Open your terminal and `cd` to your `~/Sites` folder
-3. Clone your fork into the `~/Sites/laravel` folder, by running the following command *with your username placed into the {username} slot*:
+3. Clone your fork into the `~/Sites/lets` folder, by running the following command *with your username placed into the {username} slot*:
     ```bash
-    git clone git@github.com:{username}/laravel.com laravel
+    git clone git@github.com:{username}/lets.dev1.my.id lets
     ```
 4. CD into the new directory you just created:
     ```bash
-    cd laravel
+    cd lets
     ```
 5. Run the `setup.sh` bin script, which will take all the steps necessary to prepare your local install:
     ```bash
