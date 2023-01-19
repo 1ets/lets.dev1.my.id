@@ -7,7 +7,7 @@
         <a href="/" class="inline-flex items-center">
           {{-- <img class="w-12" src="/img/logomark.min.svg" alt="Lets" width="50" height="52"> --}}
           {{-- <img class="ml-5 sm:block" src="/img/logotype.min.svg" alt="Lets" width="114" height="29"> --}}
-          <h1 class="text-3xl font-bold ">Lets Framework</h1>
+          <span class="text-3xl font-bold ">Lets Framework</span>
         </a>
       </div>
       <ul class="relative hidden lg:flex lg:items-center lg:justify-center lg:gap-6 xl:gap-10">
