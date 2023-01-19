@@ -1,7 +1,7 @@
-name: Compile Assets
+# name: Compile Assets
 
-on: [push]
+# on: [push]
 
-jobs:
-  compile:
-    uses: laravel/.github/.github/workflows/compile-assets.yml@main
+# jobs:
+#   compile:
+#     uses: laravel/.github/.github/workflows/compile-assets.yml@main
