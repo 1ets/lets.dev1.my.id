@@ -25,9 +25,6 @@
             <x-button.primary class="w-full sm:w-auto" href="/docs">
               Get Started
             </x-button.primary>
-            <x-button.secondary class="w-full sm:w-auto" href="https://laracasts.com" target="_blank">
-              Watch Laracasts
-            </x-button.secondary>
           </div>
         </div>
       </div>
@@ -36,9 +33,10 @@
 
   <div class="hidden md:block md:overflow-hidden md:mt-24">
     <div class="flex items-center justify-center gap-x-10">
-      @foreach ($logos as $logo)
+      Partners Logo
+      {{-- @foreach ($logos as $logo)
         <img src="/images/companies/{{ \Str::slug($logo['company']) }}.png" alt="{{ $logo['company'] }}" style="height: {{ $logo['logo-height'] }}px">
-      @endforeach
+      @endforeach --}}
     </div>
   </div>
 

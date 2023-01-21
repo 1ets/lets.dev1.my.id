@@ -131,7 +131,7 @@
     </div>
     <div class="mt-10 border-t pt-6 pb-16 border-gray-200 {{ $is_docs_page ? 'dark:border-dark-500' : '' }}">
       <p class="text-xs text-gray-700 {{ $is_docs_page ? 'dark:text-gray-400' : '' }}">
-        Lets is a Trademark of Taylor Otwell. Copyright &copy; 2011-{{ now()->format('Y') }} Lets LLC.
+        Lets is a Trademark of Dhuta Pratama. Copyright &copy; 2022-{{ now()->format('Y') }}.
       </p>
       <p class="mt-6 text-xs text-gray-700 {{ $is_docs_page ? 'dark:text-gray-400' : '' }}">
         Code highlighting provided by <a href="https://torchlight.dev">Torchlight</a>

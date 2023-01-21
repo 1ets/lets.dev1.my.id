@@ -21,7 +21,7 @@
               </div>
             </nav>
 
-            @php
+            {{-- @php
               $promote = null;
 
               switch (random_int(1, 3)) {
@@ -55,7 +55,7 @@
               <div class="mt-4 px-3 py-2 border-dashed border-gray-200 border rounded-lg text-xs leading-loose text-gray-700 lg:block dark:border-gray-400 dark:text-gray-200">
                 <span class="font-medium">Lets Nova:</span> The next generation of Nova is <a class="underline text-red-600" href="https://nova.laravel.com">now available</a>.
               </div>
-            @endif
+            @endif --}}
           </div>
         </div>
       </aside>
@@ -159,7 +159,7 @@
 
           <section class="mt-8 md:mt-16">
             <section class="docs_main max-w-prose">
-              @unless($currentVersion == 'master' || version_compare($currentVersion, DEFAULT_VERSION) >= 0)
+              @unless($currentVersion == 'main' || version_compare($currentVersion, DEFAULT_VERSION) >= 0)
                 <blockquote>
                   <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg dark:bg-dark-600 lg:flex lg:items-center">
                     <div class="w-20 h-20 mb-6 flex items-center justify-center shrink-0 bg-orange-600 lg:mb-0">
@@ -174,7 +174,7 @@
                 </blockquote>
               @endunless
 
-              @if ($currentVersion == 'master' || version_compare($currentVersion, DEFAULT_VERSION) > 0)
+              @if ($currentVersion == 'main' || version_compare($currentVersion, DEFAULT_VERSION) > 0)
                 <blockquote>
                   <div class="callout">
                     <div class="mb-10 max-w-2xl mx-auto px-4 py-8 shadow-lg lg:flex lg:items-center">
